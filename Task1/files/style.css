@@ -150,6 +150,7 @@ color: white;
 }
 
 .fire {
+  transition: all 0.3s ease-in-out;
   position: absolute;
   top: calc(50% - 50px);
   left: calc(50% - 50px);
@@ -332,9 +333,10 @@ body{
 
 
 nav{
-  background: rgb(255,255,255);
-  color : black;
-  background: linear-gradient(90deg, rgba(0, 204, 255, 0.547) 0%, rgba(0, 162, 187, 1) 46%, rgba(0, 221, 255, 0.53) 100%);
+  letter-spacing: 1px;
+  font: sans-serif;
+  background: rgb(73, 60, 60);
+  color : white;
   height: 20vh;
   width: 100%;
   display: flex;
@@ -346,8 +348,10 @@ nav{
 }
 
 .navbar{
+  color: black;
   display: flex;
   width: 70%;
+  gap: 2rem;
 }
 
 
@@ -464,26 +468,42 @@ div{
 
 .about-btn{
   margin: 5px;
-  background: #fff;
-  border-radius: 10px;
-  height: 2rem;
+  height: 3rem;
   width: 7rem;
   text-align: center;
   line-height: 2em;
   cursor: pointer;
   position: relative;
+  font-size: larger;
+  padding: 2px;
+  transition: all;
+  transition-duration: 0.5s;
 }
 
 .desc-btn{
   margin: 5px;
-  background: #fff;
-  border-radius: 10px;
-  height: 2rem;
-  width: 8rem;
+  font-size: larger;
+  height: 3rem;
+  width: 10rem;
   text-align: center;
   line-height: 2em;
   cursor: pointer;
   position: relative;
+  padding: 2px;
+  transition: all;
+  transition-duration: 0.25s;
+}
+
+.desc-btn:hover{
+  transition: all;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid red;
+}
+
+.about-btn:hover{
+  transition: all;
+  transition-duration: 0.5s;
+  border-bottom: 2px solid red;
 }
 
 #yakshit_1080_button{

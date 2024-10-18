@@ -4,6 +4,17 @@ const parent = document.querySelector('.wrapper');
 const children = parent.children
 let showDesc = false
 let showAbout = false
+const logo = document.querySelector("#logo");
+const fire = document.querySelector(".free");
+
+logo.addEventListener('mouseenter', ()=>{
+    fire.classList.remove("hidden");
+})
+
+logo.addEventListener('mouseleave',()=>{
+    fire.classList.add("hidden");
+})
+
 
 for(let i=0;i<children.length-4;i++){
     children[i].children[0].innerHTML = `# ${i+1}`;
