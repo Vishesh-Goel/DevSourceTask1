@@ -43,9 +43,7 @@ color: white;
 }
 #Vihaan_1080_button:hover{
   background: rgb(255,255,255);
-  background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgb(255, 255, 255) 41%, rgba(0,212,255,0.4646650896686799) 100%);
-  
-  color: white;
+  color: rgb(0, 0, 0);
   }
 
 #Unknown-Entity226{
