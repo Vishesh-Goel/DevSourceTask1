@@ -41,6 +41,17 @@ color: white;
   padding: 10px;
 }
 
+#Unknown-Entity226{
+  background-color: darkblue;
+  padding: 10px;
+  margin: 10px;
+}
+#Unknown-Entity226_button{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 #logo{
   height: 90px;
