@@ -29,6 +29,18 @@ background: linear-gradient(5deg, rgba(255,255,255,0) 0%, rgba(0,255,245,1) 41%,
 color: white;
 }
 
+#Vihaan_1080{
+  background-color: rgb(18, 18, 225);
+  padding: 10px;
+  margin: 10px;
+}
+#Vihaan_1080_button{
+  color: white;
+  background-color: rgb(187, 0, 255);
+  border-radius: 5px;
+  padding: 10px;
+}
+
 
 #logo{
   height: 90px;
