@@ -422,5 +422,22 @@ div{
   position: relative;
 }
 
+#yakshit_1080_button{
+  outline: none;
+  border: none;
+  height: 50%;
+  width: 80%;
+  border-radius: 15px;
+  transition: all;
+  transition-duration: 0.6s;
+  color: rgb(83, 79, 79);
+}
 
-
+#yakshit_1080_button:hover{
+  background: rgb(255, 255, 255);
+  color: black;
+  border-radius: 3px;
+  height: 40%;
+  width: 70%;
+  box-shadow: 5px 5px black;
+  }
