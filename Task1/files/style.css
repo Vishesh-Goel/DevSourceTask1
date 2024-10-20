@@ -525,3 +525,34 @@ div{
   width: 70%;
   box-shadow: 5px 5px black;
   }
+
+#Satya_1080{
+  color: rgb(230, 191, 248);
+  gap: 3;
+  font-family: 'Verdana', sans-serif;
+  font-size:larger;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  }
+#Satya_1080_button {
+  background: linear-gradient(45deg, #e84e33, #fdb8c1); 
+  color: white; 
+  padding: 16px 24px; 
+  border: none;
+  border-radius: 12px; 
+  font-size: 18px;
+  font-weight: bold; 
+  transition: all 0.3s ease; 
+  cursor: pointer; }
+  
+#Satya_1080_button:hover {
+  background: linear-gradient(45deg, #0056b3, #0095ff); 
+  transform: translateY(-2px);  
+  }
+  
+#Satya_1080_button:active {
+  background: linear-gradient(45deg, #276e06, #c2f785);
+  transform: translateY(0); 
+  
+  } 
